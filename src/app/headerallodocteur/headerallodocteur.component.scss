@@ -1,0 +1,52 @@
+header {
+  background-color: white ;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  height: 110px;
+}
+
+.logo {
+  img {
+    max-height: 100px;
+    border-radius: 12px;
+  }
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  gap: 50px;
+  color: black; /* Mettre les liens en noir */
+  font-weight: bold; /* Mettre les liens en gras */
+  font-size: 25px; /* Augmenter la taille des liens */
+}
+
+button.connect-button {
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+button.connect-button:hover {
+  background-color: #259f75;
+}
